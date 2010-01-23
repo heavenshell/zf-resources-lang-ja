@@ -63,7 +63,7 @@ return array(
 
     // Zend_Validate_Datefrom an allowed
     "Invalid type given, value should be string, integer, array or Zend_Date" => "不正な形式です。値は文字列、整数、配列もしくは Zend_Date 形式である必要があります",
-    "'%value%' does not appear to be a valid date" => "'%value%'は正しい日付ではないよ>うです",
+    "'%value%' does not appear to be a valid date" => "'%value%'は正しい日付ではないようです",
     "'%value%' does not fit the date format '%format%'" => "'%value%'は'%format%'フォーマットに一致していません",
 
     // Zend_Validate_Db_Abstract
