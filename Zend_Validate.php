@@ -203,9 +203,9 @@ return array(
     "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%'は DNS ホスト名のようですが、punycode 'ピュニコード' 変換ができませんでした",
 
     // Zend_Validate_Iban
-    "Unknown country within the IBAN '%value%'" => "'%value%'は IBAN 番号を持っていません",
+    "Unknown country within the IBAN '%value%'" => "IBAN コード'%value%'は不明な国です",
     "'%value%' has a false IBAN format" => "'%value%'は誤った書式です",
-    "'%value%' has failed the IBAN check" => "'%value%'は IBAN 番号チェックに失敗しました",
+    "'%value%' has failed the IBAN check" => "'%value%'は IBAN コードチェックに失敗しました",
 
     // Zend_Validate_Identical
     "The token '%token%' does not match the given token '%value%'" => "トークン'%token%'は'%value%'と一致しませんでした",
