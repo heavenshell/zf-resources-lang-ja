@@ -118,7 +118,7 @@ return array(
 
     // Zend_Validate_File_Hash
     "File '%value%' does not match the given hashes" => "ファイル'%value%'は設定されたハッシュ値と一致しませんでした",
-    "A hash could not be evaluated for the given file" => "A hash could not be evaluated for the given file",
+    "A hash could not be evaluated for the given file" => "渡されたファイルは ハッシュ値として評価できませんでした",
     "File '%value%' could not be found" => "ファイル'%value%'は見つかりませんでした",
 
     // Zend_Validate_File_ImageSize
