@@ -212,7 +212,7 @@ return array(
     "No token was provided to match against" => "チェックを行うためのトークンがありませんでした",
 
     // Zend_Validate_InArray
-    "'%value%' was not found in the haystack" => "'%value%'は候補の中にありません",
+    "'%value%' was not found in the haystack" => "'%value%'は候補の中にありませんでした",
 
     // Zend_Validate_Int
     "Invalid type given, value should be string or integer" => "不正な形式です。値は文字列または数値である必要があります",
