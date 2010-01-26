@@ -38,7 +38,7 @@ return array(
     "'%value%' failed checksum validation" => "'%value%'はチェックサムが一致していません",
     "'%value%' contains invalid characters" => "'%value%'は不正な文字を含んでいます",
     "'%value%' should have a length of %length% characters" => "'%value%'は%length%文字である必要があります",
-    "Invalid type given, value should be string" => "不正な形式です。文字列を入力して下さい",
+    "Invalid type given, value should be string" => "不正な形式です。文字列である必要があります",
 
     // Zend_Validate_Between
     "'%value%' is not between '%min%' and '%max%', inclusively" => "%value%'は'%min%'以上'%max%'以下ではありません",
@@ -71,7 +71,7 @@ return array(
     "A record matching %value% was found" => "'%value%に一致するレコードが見つかりました",
 
     // Zend_Validate_Digits
-    "Invalid type given, value should be string, integer or float" => "不正な形式です。値は文字列、整数、もしくは浮動小数点数である必要があります",
+    "Invalid type given, value should be string, integer or float" => "不正な形式です。値は文字列、整数、もしくは小数である必要があります",
     "'%value%' contains not only digit characters" => "'%value%'に数字以外の文字が含まれています",
     "'%value%' is an empty string" => "'%value%'は空の文字列です",
 
@@ -180,8 +180,8 @@ return array(
     "File '%value%' could not be found" => "ファイル'%value%'は見つかりませんでした",
 
     // Zend_Validate_Float
-    "Invalid type given, value should be float, string, or integer" => "不正な形式です。値は浮動小数点数、文字列もしくは整数である必要があります",
-    "'%value%' does not appear to be a float" => "'%value%'は浮動小数点数ではないようです",
+    "Invalid type given, value should be float, string, or integer" => "不正な形式です。値は小数、文字列もしくは整数である必要があります",
+    "'%value%' does not appear to be a float" => "'%value%'は小数ではないようです",
 
     // Zend_Validate_GreaterThan
     "'%value%' is not greater than '%min%'" => "'%value%'は'%min%'より大きくありません",
@@ -197,7 +197,7 @@ return array(
     "'%value%' appears to be a DNS hostname but contains a dash in an invalid position" => "'%value%'は DNS ホスト名のようですが不正な位置にダッシュがあります",
     "'%value%' appears to be a DNS hostname but cannot match against hostname schema for TLD '%tld%'" => "'%value%'は DNS ホスト名のようですが TLD '%tld%'のホスト名スキーマと一致していません",
     "'%value%' appears to be a DNS hostname but cannot extract TLD part" => "'%value%'は DNS ホスト名のようですが TLD 部を展開できません",
-    "'%value%' does not match the expected structure for a DNS hostname" => "'%value%'は DNS ホスト名の構造に合いません",
+    "'%value%' does not match the expected structure for a DNS hostname" => "'%value%'は DNS ホスト名の構造に一致していません",
     "'%value%' does not appear to be a valid local network name" => "'%value%'は有効なローカルネットワーク名ではないようです",
     "'%value%' appears to be a local network name but local network names are not allowed" => "'%value%'はローカルネットワーク名のようですがローカルネットワーク名は許されていません",
     "'%value%' appears to be a DNS hostname but the given punycode notation cannot be decoded" => "'%value%'は DNS ホスト名のようですが、punycode 'ピュニコード' 変換ができませんでした",
@@ -229,15 +229,15 @@ return array(
     "'%value%' is not less than '%max%'" => "'%value%'は'%max%'未満ではありません",
 
     // Zend_Validate_NotEmpty
-    "Invalid type given, value should be float, string, array, boolean or integer" => "不正な形式です。値は浮動小数点数、文字列、配列、真偽値もしくは整数である必要があります",
-    "Value is required and can't be empty" => "値が空です。空ではない値が必要です",
+    "Invalid type given, value should be float, string, array, boolean or integer" => "不正な形式です。値は小数、文字列、配列、真偽値もしくは整数である必要があります",
+    "Value is required and can't be empty" => "値は必須です。空は許可されていません",
 
     // Zend_Validate_PostCode
     "Invalid type given, value should be string or integer" => "不正な形式です。値は文字列または整数である必要があります",
-    "'%value%' does not appear to be an postal code" => "'%value%' は郵便番号でないようです",
+    "'%value%' does not appear to be an postal code" => "'%value%'は郵便番号でないようです",
 
     // Zend_Validate_Regex
-    "Invalid type given, value should be string, integer or float" => "不正な型です。値は文字列、整数もしくは浮動小数点数である必要があります",
+    "Invalid type given, value should be string, integer or float" => "不正な形式です。値は文字列、整数もしくは小数である必要があります",
     "'%value%' does not match against pattern '%pattern%'" => "'%value%'はパターン'%pattern%'と一致していません",
 
     // Zend_Validate_Sitemap_Changefreq
