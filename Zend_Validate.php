@@ -253,7 +253,7 @@ return array(
     "'%value%' is no valid sitemap priority" => "'%value%'は正しいサイトマップの優先度ではありません",
 
     // Zend_Validate_StringLength
-    "Invalid type given, value should be a string" => "不正な値です。値は文字列である必要があります",
+    "Invalid type given, value should be a string" => "不正な形式です。値は文字列である必要があります",
     "'%value%' is less than %min% characters long" => "'%value%'は %min% 文字より短いです",
     "'%value%' is more than %max% characters long" => "'%value%'は %max% 文字より長いです",
 );
