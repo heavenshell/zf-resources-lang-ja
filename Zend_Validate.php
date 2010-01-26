@@ -36,7 +36,7 @@ return array(
 
     // Zend_Validate_Barcode
     "'%value%' failed checksum validation" => "'%value%'はチェックサムが一致していません",
-    "'%value%' contains invalid characters" => "'%value%' は不正な文字を含んでいます",
+    "'%value%' contains invalid characters" => "'%value%'は不正な文字を含んでいます",
     "'%value%' should have a length of %length% characters" => "'%value%'は%length%文字である必要があります",
     "Invalid type given, value should be string" => "不正な形式です。文字列を入力して下さい",
 
