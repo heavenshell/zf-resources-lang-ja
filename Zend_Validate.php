@@ -21,7 +21,7 @@
  */
 
 /**
- * EN-Revision: 21362
+ * EN-Revision: 21573
  */
 return array(
     // Zend_Validate_Alnum
@@ -233,12 +233,14 @@ return array(
     "Value is required and can't be empty" => "値は必須です。空値は許可されていません",
 
     // Zend_Validate_PostCode
-    "Invalid type given, value should be string or integer" => "不正な形式です。値は文字列または数値である必要があります",
-    "'%value%' does not appear to be an postal code" => " '%value%' は郵便番号でないようです",
+    "Invalid type given. The value should be a string or a integer" => "不正な形式です。値は文字列または数値である必要があります",
+    "'%value%' does not appear to be a postal code" => " '%value%' は郵便番号でないようです",
 
     // Zend_Validate_Regex
     "Invalid type given, value should be string, integer or float" => "不正な形式です。値は文字列、整数、もしくは小数である必要があります",
     "'%value%' does not match against pattern '%pattern%'" => " '%value%' はパターン '%pattern%' と一致していません",
+    "There was an internal error while using the pattern '%pattern%'" => "正規表現パターン '%pattern%' を使用したため内部エラーが発生しました。",
+
 
     // Zend_Validate_Sitemap_Changefreq
     "'%value%' is no valid sitemap changefreq" => " '%value%' は正しいサイトマップの更新頻度ではありません",
