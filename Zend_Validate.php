@@ -21,7 +21,7 @@
  */
 
 /**
- * EN-Revision: 21573
+ * EN-Revision: 21759
  */
 return array(
     // Zend_Validate_Alnum
@@ -223,6 +223,7 @@ return array(
     "'%value%' does not appear to be a valid IP address" => " '%value%' は IP アドレスではないようです",
 
     // Zend_Validate_Isbn
+     "Invalid type given, value should be string or integer" => "不正な形式です。値は文字列または数値である必要があります",
     "'%value%' is no valid ISBN number" => " '%value%' は ISBN 番号ではありません",
 
     // Zend_Validate_LessThan
