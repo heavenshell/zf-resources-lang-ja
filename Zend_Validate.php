@@ -21,7 +21,7 @@
  */
 
 /**
- * EN-Revision: 21759
+ * EN-Revision: 22075
  */
 return array(
     // Zend_Validate_Alnum
@@ -208,7 +208,7 @@ return array(
     "'%value%' has failed the IBAN check" => " '%value%' は IBAN コードチェックに失敗しました",
 
     // Zend_Validate_Identical
-    "The token '%token%' does not match the given token '%value%'" => "トークン '%token%' は '%value%' と一致しませんでした",
+    "The two given tokens do not match" => "2 つのトークンは一致しませんでした",
     "No token was provided to match against" => "チェックを行うためのトークンがありませんでした",
 
     // Zend_Validate_InArray
